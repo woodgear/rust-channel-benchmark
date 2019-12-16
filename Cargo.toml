@@ -1,0 +1,11 @@
+[package]
+name = "channel-benchmark"
+version = "0.1.0"
+authors = ["wucong <1875486458@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = {version="1.0.44",features = ["arbitrary_precision"]} 
+crossbeam-channel = "0.4.0"
